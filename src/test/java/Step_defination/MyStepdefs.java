@@ -112,4 +112,10 @@ public class MyStepdefs extends Test_Base  {
     public void helloword(){
         System.out.println("Hello world");
     }
+
+    @And("Hello word New ")
+    public void helloword_New(){
+        System.out.println("Hello world New");
+    }
+
 }
