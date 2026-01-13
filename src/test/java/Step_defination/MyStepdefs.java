@@ -107,4 +107,9 @@ public class MyStepdefs extends Test_Base  {
         home_page = new Home_Page();
         home_page.ClickonAddtocartfordenimbluejeans();
     }
+
+    @And("Hello word")
+    public void helloword(){
+        System.out.println("Hello world");
+    }
 }
