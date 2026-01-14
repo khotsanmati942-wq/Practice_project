@@ -118,8 +118,19 @@ public class MyStepdefs extends Test_Base  {
         System.out.println("Hello world New");
     }
 
+
+
+
+
+
+
     @And("Hello word New and bye ")
     public void helloword_New_and_bye(){
         System.out.println("Hello world New");
+    }
+
+    @And("Conflit method new")
+    public void Conflict_method_new(){
+        System.out.println("Conflict method");
     }
 }
