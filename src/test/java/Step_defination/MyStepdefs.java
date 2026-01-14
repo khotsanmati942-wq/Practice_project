@@ -128,4 +128,8 @@ public class MyStepdefs extends Test_Base  {
     public void Conflict_method_new(){
         System.out.println("Conflict change by sanmati");
     }
+
+    public  void dummy(){
+        System.out.println("dummy method by sanmati");
+    }
 }
